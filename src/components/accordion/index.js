@@ -47,7 +47,6 @@ Accordion.Header = function AccordionHeader({ children, ...restProps }) {
       {...restProps}
     >
       {children}
-      {/* <pre>{JSON.stringify(toggleShow, null, 2)}</pre> */}
       {toggleShow ? (
         <AiOutlineClose alt="Close" color="#fff" />
       ) : (
