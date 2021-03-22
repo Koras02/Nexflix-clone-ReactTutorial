@@ -32,3 +32,5 @@ Hydrated application with data(웹데이터)
 
 normalize.css 는 HTML의 요소 기본 스타일을 브라우저에 맞게 일관성있게 유지하도록 하는 css이다.
 
+4.react-router-dom 설치 
+
