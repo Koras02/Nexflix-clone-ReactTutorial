@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // jumbotron 구성
 import React from "react";
 import {
