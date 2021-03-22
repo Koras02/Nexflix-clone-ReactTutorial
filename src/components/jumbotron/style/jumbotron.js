@@ -5,7 +5,7 @@ export const Item = styled.div`
   display: flex;
   border-bottom: 8px solid #222;
   padding: 50px 5%;
-  color: white;
+  color: #fff;
   overflow: hidden;
 `;
 
@@ -28,7 +28,7 @@ export const Pane = styled.div`
 
   @media (max-width: 1000px) {
     width: 100%;
-    padding: 0 5px;
+    padding: 0 25px;
     text-align: center;
   }
 `;
