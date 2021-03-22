@@ -1,0 +1,34 @@
+nexflix 클론 파일구성 목록 
+
+public => website 만들때 사용 
+
+src = 파일 구성 목록 
+
+images / components / containers / context / constants / videos / hooks 
+
+/pages / utils / fixtures / helpers / lib 
+
+
+compontnes 구성 - > accordion / card / feature / footer / form / header /
+
+jumbotron / loading / opt-form / player / profiles 
+
+components - card -> styles(folder) -> card.js(style) or index.js(모든 컴포넌트)
+
+
+application achiteture -> User -> Application(front-end) -> Firebase(파이어베이스) -> 
+
+Hydrated application with data(웹데이터)
+
+
+1.yarn add styled-components, yarn add firebase
+
+
+2.yarn add fuse.js 설치 & yarn add normalize.css 설치 
+
+1.fuse.js란 웹사이트 안에 대한 퍼지 검색기능을 제공하는 javascript 라이브러리이다.
+
+즉 fuse.js를 사용하여서 클라이언트 측 검색  기능을 제공하여 이름 기타 세부사항을 검색하는 기능 
+
+normalize.css 는 HTML의 요소 기본 스타일을 브라우저에 맞게 일관성있게 유지하도록 하는 css이다.
+
