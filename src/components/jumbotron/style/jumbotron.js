@@ -34,7 +34,7 @@ export const Pane = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1.1;
   margin-bottom: 8px;
 
@@ -44,7 +44,7 @@ export const Title = styled.h1`
 `;
 
 export const SubTitle = styled.h2`
-  font-size: 26px;
+  font-size: 22px;
   font-weight: normal;
   line-height: normal;
 
@@ -57,4 +57,10 @@ export const Image = styled.img`
   height: auto;
 `;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  @media screen and (max-width: 1000px) {
+    ${Item}:last-of-type h2 {
+      margin-bottom: 50px;
+    }
+  }
+`;

@@ -34,3 +34,11 @@ normalize.css 는 HTML의 요소 기본 스타일을 브라우저에 맞게 일�
 
 4.react-router-dom 설치 
 
+
+5.install-eslint 
+
+sudo apt eslint 로 eslint 설치 &  install eslint 
+
+npm install eslint
+
+안해도된다.

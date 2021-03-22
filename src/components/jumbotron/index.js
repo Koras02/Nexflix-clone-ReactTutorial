@@ -17,8 +17,8 @@ export default function Jumbotron({
 }) {
   // 설정한 children 불러오기
   return (
-    <Item direction={direction}>
-      <Inner>{children}</Inner>
+    <Item {...restProps}>
+      <Inner direction={direction}>{children}</Inner>
     </Item>
   );
 }
