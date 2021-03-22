@@ -42,7 +42,7 @@ export const Header = styled.div`
 export const Body = styled.div`
   max-height: 1200px;
   transition: max-height 0.25s cubic-bazier(0.5, 0, 0.1, 1);
-  font-size: 26px;
+  font-size: 24px;
   font-weight: normal;
   line-height: normal;
   background: #303030;
@@ -79,6 +79,6 @@ export const Title = styled.h1`
   text-align: center;
 
   @media screen and (max-width: 600px) {
-    font-size: 35px;
+    font-size: 25px;
   }
 `;
